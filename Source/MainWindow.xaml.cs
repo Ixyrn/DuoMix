@@ -54,6 +54,13 @@ public partial class MainWindow : Window
     async void HideDialog() { if (Overlay.Visibility != Visibility.Visible) return; int generation = ++dialogGeneration; await Motion.FadeOut(Overlay); if (generation == dialogGeneration) { Overlay.Visibility = Visibility.Collapsed; Overlay.BeginAnimation(OpacityProperty, null); Overlay.Opacity = 1; } }
     void DeviceSettingsClick(object sender, RoutedEventArgs e) { try { Process.Start(new ProcessStartInfo("ms-settings:sound") { UseShellExecute = true }); } catch (Exception ex) { Report(ex); } }
     void Report(Exception ex) { Status.Text = ex.Message; System.Windows.MessageBox.Show(this, ex.Message, "DuoMix", MessageBoxButton.OK, MessageBoxImage.Warning); }
+    void GitHubClick(object sender, RoutedEventArgs e) => OpenFooterLink("https://github.com/Ixyrn/DuoMix");
+    void KoFiClick(object sender, RoutedEventArgs e) => OpenFooterLink("https://ko-fi.com/ixyrn");
+    void OpenFooterLink(string url)
+    {
+        try { Process.Start(new ProcessStartInfo(url) { UseShellExecute = true }); }
+        catch (Exception ex) { Report(ex); }
+    }
     void MinimizeClick(object sender, RoutedEventArgs e) => WindowState = WindowState.Minimized;
     void UpdateCaption() { bool restored = WindowState == WindowState.Maximized; MaximizeGlyph.Data = Geometry.Parse(restored ? "M3.5,0.5 L12.5,0.5 L12.5,9.5 M0.5,3.5 L9.5,3.5 L9.5,12.5 L0.5,12.5 Z" : "M0.5,0.5 L12.5,0.5 L12.5,12.5 L0.5,12.5 Z"); MaximizeButton.ToolTip = restored ? "Restore down" : "Maximize"; System.Windows.Automation.AutomationProperties.SetName(MaximizeButton, restored ? "Restore down" : "Maximize"); }
     void MaximizeClick(object sender, RoutedEventArgs e) => WindowState = WindowState == WindowState.Maximized ? WindowState.Normal : WindowState.Maximized;
