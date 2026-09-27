@@ -20,6 +20,15 @@
 4. Open **Game Microphone > Connection**. Use automatic detection or select both ends of your installed virtual cable.
 5. Click **Start Mixing**, then select the displayed recording device in your game.
 
+<p align="center">
+  <b>If you like my work, you can</b>
+  <a href="https://ko-fi.com/ixyrn">
+    <img src="desc-images/Kofi%20icon.png" alt="Ko-fi" width="12">
+    <b>Donate</b>
+  </a>
+  <b>to me</b>
+</p>
+
 The application executable is currently unsigned. The optional third-party driver retains its vendor signatures. This release has been checked on a development PC; clean-machine installation and every game/voice application have not been independently qualified.
 
 ## Virtual cable setup
