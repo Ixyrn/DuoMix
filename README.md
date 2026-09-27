@@ -14,7 +14,7 @@
 
 ## Install
 
-1. [Download](https://github.com/Ixyrn/DuoMix/releases/tag/1.0.0) the Windows x64 portable ZIP from Releases and extract the entire folder to where ever you want.
+1. [Download](https://github.com/Ixyrn/DuoMix/releases) the Windows x64 portable ZIP from Releases and extract the entire folder to where ever you want.
 2. Run `DuoMix.exe`. No separate .NET installation is required.
 3. Choose your microphone and use **Add Program** to select audio sources.
 4. Open **Game Microphone > Connection**. Use automatic detection or select both ends of your installed virtual cable.
