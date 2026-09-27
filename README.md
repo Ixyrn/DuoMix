@@ -1,6 +1,14 @@
-# DuoMix
+<p align="center">
+  <img src="desc-images/DuoMix%20Banner.png" alt="DuoMix Banner">
+</p>
 
-Combine your microphone with audio from several running programs, adjust each source, and send the mix through a virtual cable to a game or voice app.
+<p align="center">
+  Combine audio sources from your microphone input and external programs to output simultaneously through your mic in-game or voice applications.
+</p>
+
+![DuoMix Example](desc-images/DuoMix%20Example.png)
+
+Selected applications contribute their output to the mix; DuoMix does not inject microphone audio into those applications. Avoid selecting overlapping parent/child processes, which can duplicate audio. Add a restarted application again if its process ID changes. Game noise suppression or automatic gain may alter music and sound effects.
 
 ## Install
 
@@ -26,12 +34,6 @@ The portable package includes the original standard **VB-CABLE by VB-Audio** ins
 VB-CABLE is donationware. All participations are welcome. Download, donate or pay for a license at [VB-Audio](https://vb-audio.com/Cable/). Its [distribution conditions](https://vb-audio.com/Services/licensing.htm) apply separately from DuoMix's MIT license; professional/institutional distribution may require purchased licenses. The paid A+B/C+D cables are not bundled.
 
 **Rename** changes the recording endpoint's friendly name in Windows. Games may append the vendor name or need their device lists refreshed. It does not replace or modify the signed driver.
-
-## What it does
-
-DuoMix combines audio sources from your microphone input and external programs to output simultaneously through your mic in-game or voice applications.
-
-Selected applications contribute their output to the mix; DuoMix does not inject microphone audio into those applications. Avoid selecting overlapping parent/child processes, which can duplicate audio. Add a restarted application again if its process ID changes. Game noise suppression or automatic gain may alter music and sound effects.
 
 ## Privacy and settings
 
