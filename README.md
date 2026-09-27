@@ -52,6 +52,6 @@ DuoMix does not record audio to disk or send audio to an online service. Audio s
 
 ## License
 
-DuoMix is licensed. Copyright (c) 2026 Ixyrn.
+DuoMix is licensed conditionally. Copyright (c) 2026 Ixyrn.
 
 See [LICENSE](LICENSE) and [THIRD-PARTY.md](THIRD-PARTY.md) for dependency, font, runtime and driver licenses.
