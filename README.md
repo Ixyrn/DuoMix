@@ -4,10 +4,10 @@ Combine your microphone with audio from several running programs, adjust each so
 
 ## Install
 
-1. [Download](https://github.com/Ixyrn/DuoMix/releases/tag/1.0.0) the Windows x64 portable ZIP from Releases and extract the entire folder.
+1. [Download](https://github.com/Ixyrn/DuoMix/releases/tag/1.0.0) the Windows x64 portable ZIP from Releases and extract the entire folder to where ever you want.
 2. Run `DuoMix.exe`. No separate .NET installation is required.
 3. Choose your microphone and use **Add Program** to select audio sources.
-4. Open **Game Microphone → Connection**. Use automatic detection or select both ends of your installed virtual cable.
+4. Open **Game Microphone > Connection**. Use automatic detection or select both ends of your installed virtual cable.
 5. Click **Start Mixing**, then select the displayed recording device in your game.
 
 The application executable is currently unsigned. The optional third-party driver retains its vendor signatures. This release has been checked on a development PC; clean-machine installation and every game/voice application have not been independently qualified.
