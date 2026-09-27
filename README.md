@@ -1,14 +1,16 @@
 <p align="center">
-  <img src="desc-images/DuoMix%20Banner.png" alt="DuoMix Banner">
+  <img src="desc-images/DuoMix%20Banner%20Alt.png" alt="DuoMix Banner">
 </p>
+
+<h3 align="center">
+  <b>Combine audio sources from your microphone input and external programs to output simultaneously through your mic in-game or voice applications.</b>
+</h3>
 
 <p align="center">
-  Combine audio sources from your microphone input and external programs to output simultaneously through your mic in-game or voice applications.
+  <img src="desc-images/DuoMix%20Example.png" alt="DuoMix Example">
 </p>
 
-![DuoMix Example](desc-images/DuoMix%20Example.png)
-
-Selected applications contribute their output to the mix; DuoMix does not inject microphone audio into those applications. Avoid selecting overlapping parent/child processes, which can duplicate audio. Add a restarted application again if its process ID changes. Game noise suppression or automatic gain may alter music and sound effects.
+<i>Selected applications contribute their output to the mix; DuoMix does not inject microphone audio into those applications. Avoid selecting overlapping parent/child processes, which can duplicate audio. Add a restarted application again if its process ID changes. Game noise suppression or automatic gain may alter music and sound effects.</i>
 
 ## Install
 
