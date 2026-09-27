@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+<title>DuoMix transparent vector mark</title>
+<defs>
+<linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#35f0fc"/><stop offset=".5" stop-color="#149cff"/><stop offset="1" stop-color="#1250f4"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="white"/><stop offset=".72" stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+<mask id="tails"><rect x="280" y="165" width="464" height="697" fill="url(#fade)"/></mask>
+</defs>
+<g fill="none" stroke="url(#blue)" stroke-linecap="round" stroke-linejoin="round">
+<path mask="url(#tails)" stroke-width="60" d="M320 195 V356 C320 420 341 444 395 446 C468 449 476 515 476 573 V832 M704 195 V356 C704 420 683 444 629 446 C556 449 548 515 548 573 V832"/>
+<path stroke-width="54" d="M219 285 V472 M127 360 V420 M805 285 V472 M897 360 V420"/>
+<path stroke-width="74" d="M512 665 V843"/>
+</g></svg>

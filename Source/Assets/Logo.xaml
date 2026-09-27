@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<LinearGradientBrush x:Key="LogoGradient" StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#35F0FC" Offset="0"/><GradientStop Color="#149CFF" Offset="0.5"/><GradientStop Color="#1250F4" Offset="1"/></LinearGradientBrush>
+<DrawingImage x:Key="DuoMixLogo"><DrawingImage.Drawing><DrawingGroup>
+<GeometryDrawing Brush="Transparent" Geometry="M0,0 H1024 V1024 H0 Z"/>
+<DrawingGroup><DrawingGroup.OpacityMask><LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="White" Offset="0"/><GradientStop Color="White" Offset="0.72"/><GradientStop Color="Transparent" Offset="1"/></LinearGradientBrush></DrawingGroup.OpacityMask>
+<GeometryDrawing Geometry="M320,195 L320,356 C320,420 341,444 395,446 C468,449 476,515 476,573 L476,832 M704,195 L704,356 C704,420 683,444 629,446 C556,449 548,515 548,573 L548,832"><GeometryDrawing.Pen><Pen Brush="{StaticResource LogoGradient}" Thickness="60" StartLineCap="Round" EndLineCap="Round" LineJoin="Round"/></GeometryDrawing.Pen></GeometryDrawing>
+</DrawingGroup>
+<GeometryDrawing Geometry="M219,285 L219,472 M127,360 L127,420 M805,285 L805,472 M897,360 L897,420"><GeometryDrawing.Pen><Pen Brush="{StaticResource LogoGradient}" Thickness="54" StartLineCap="Round" EndLineCap="Round"/></GeometryDrawing.Pen></GeometryDrawing>
+<GeometryDrawing Geometry="M512,665 L512,843"><GeometryDrawing.Pen><Pen Brush="{StaticResource LogoGradient}" Thickness="74" StartLineCap="Round" EndLineCap="Round"/></GeometryDrawing.Pen></GeometryDrawing>
+</DrawingGroup></DrawingImage.Drawing></DrawingImage></ResourceDictionary>
